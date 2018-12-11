@@ -1,0 +1,165 @@
+body {
+	background-color: #f4f4f4;
+	margin: 0px;
+	border-top: solid 8px #090909;
+}
+
+/*-------------------------------------
+| Foundation
+-------------------------------------*/
+div.wrapper {
+	/* Responsive Design */
+	width: 90%;
+	max-width: 960px;
+	min-width: 320px;
+
+	margin: auto;
+	outline: solid 1px red;
+}
+footer.closing {
+	background-color: #e2e2e2;
+}
+
+/*-------------------------------------
+| Header
+-------------------------------------*/
+header.opening {
+	outline: solid 1px green;
+	height: 130px;
+	position: relative;
+}
+
+header.opening h1.logo {
+	background-image: url(../img/CreativeStudio-assets/cc-logo.png);
+	width: 183px;
+	height: 100px;
+	font-size: 0;
+
+	position: absolute;
+	left: 0px; top: 10px;
+}
+
+/* Nav styles */
+nav.mainmenu {
+	position: absolute;
+	right: 0px; bottom: 30px;
+}
+body {
+	font-family: helvetica, sans-serif;
+}
+nav.mainmenu a {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+
+	margin-left: 73px;
+	color: #f88b00;
+}
+nav.mainmenu a:hover {
+	color: black;
+}
+
+/*-------------------------------------
+| Horizontal Rule
+-------------------------------------*/
+.horizontal-rule {
+	border-top: 1px solid #c0c0c0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+/*-------------------------------------
+| Slideshow Styles
+-------------------------------------*/
+.slideshow img {
+	max-width: 100%;
+}
+
+/*-------------------------------------
+| Trifecta
+-------------------------------------*/
+.trifecta {
+	display: flex;
+	/* justify-content: flex-start; */
+	/* justify-content: flex-end; */
+	/* justify-content: center; */
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.trifecta .col {
+	outline: solid 3px purple;
+	/* min-height: 500px; */
+	/* width: 285px; */
+	width: 100%;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+}
+@media screen and (min-width: 500px) {
+	.trifecta .col {
+		width: 45%;
+	}
+}
+@media screen and (min-width: 800px) {
+	.trifecta .col {
+		width: 30%;
+	}
+}
+.trifecta .col h2 {
+	border-bottom: solid 5px black;
+	padding-bottom: 5px;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+
+/*-------------------------------------
+| Portfolio
+-------------------------------------*/
+.portfolio {}
+.portfolio h2 {
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+.portfolio .gallery {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.portfolio .gallery .myCol img { max-width: 100%; }
+
+.portfolio .gallery .myCol { width: 48%; margin-bottom: 40px; }
+
+@media screen and (min-width: 600px) {
+	.portfolio .gallery .myCol { width: 24%; }
+}
+
+
+
+/*-------------------------------------
+| Form Styling
+-------------------------------------*/
+.form-control {
+	background-color: lightgray;
+	height: 64px;
+	color: maroon;
+	font-size: 30px;
+}
+
+.btn-primary {
+	background-color: maroon;
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
