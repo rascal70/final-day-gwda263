@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');@import url('https://fonts.googleapis.com/css?family=Quicksand');
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	margin: 0;
+	background-color: #000;
+	color: #fff;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------------------------------
+| My Styles
+-------------------------------------*/
+.container {
+	max-width: 1366px;
+	width: 100%;
+	margin: 0px auto;
+}
+
+header {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: left;
+	font-size: 100px;
+	line-height: 175px;
+	background-color: #000;
+	color: #fff;
+
+}
+footer {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+}
+hr {color: #fff;}
+nav {
+	display: inline-block;
+	background-color: #000;
+}
+nav a {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+	line-height: 35px;
+	text-decoration: none;
+
+	margin: 55px;
+	color: #fff;
+}
+nav a:hover { color: #29efff; }
+nav a.Chosen { color: #29efff; }
+
+p {
+	text-align: justify;
+	font-size: 21px;
+	margin: 10px 1%;
+	padding: 10px 1%;
+}
+.header {
+	text-align: center;
+}
+.article {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 50px;
+	line-height: 60px;
+	text-align: left;
+}
+.aarticle {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 35px;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: underline;
+}
+.bio {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+
+	line-height: 25px;
+	text-align: justify;
+	background-color: #000;
+	color: #fff;
+}
+.logoimg {
+	margin-right: 405px;
+}
+.img-responsive {
+	width: 100%;
+	height: auto;
+
+}
+.clearing {
+	clear: both;
+}
+
+.full {
+	width: 96%;
+	margin: 2px 1%;
+	padding: 10px 1%;
+	float: left;
+
+
+}
+.half {
+	width: 46%;
+	margin: 10px 1%;
+	padding: 10px 1%;
+	float: left;
+
+	min-height: 500px;
+}
+.video-responsive{
+    /*overflow:hidden;*/
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/*-------------------------------------
+| @media queries
+-------------------------------------*/
+@media only screen and (max-width: 992px){
+
+}
+
+@media only screen and (max-width: 768px){
+	nav a {
+		font-size: 20px;
+		line-height: 15px;
+		text-decoration: none;
+		margin: 37px;
+
+		color: #fff;
+	}
+	.half {
+		width: 96%;
+		min-height: 200px;
+	}
+	.logoimg {
+		margin-right: 205px;
+	}
+
+}
+
+@media only screen and (max-width: 600px){
+	nav a {
+		font-size: 19px;
+		text-decoration: none;
+		margin: 15px;
+
+		color: #fff;
+	}
+	.half {
+		width: 96%;
+		min-height: 200px;
+	}
+	.logoimg {
+		margin-right: 10px;
+	}
+
+}
